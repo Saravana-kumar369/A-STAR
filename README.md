@@ -1,8 +1,13 @@
 <h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
+
 <h3>Name: SARAVANA KUMAR M      </h3>
+
 <h3>Register Number: 212222230133          </h3>
+
 <H3>Aim:</H3>
+
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
+
 <H3>Algorithm:</H3>
 
 
@@ -60,6 +65,7 @@
 <hr>
 <h2>Sample Input</h2>
 <hr>
+
 10 14 <br>
 A B 6 <br>
 A F 3 <br>
@@ -86,22 +92,29 @@ H 3 <br>
 I 1 <br>
 J 0 <br>
 <hr>
+
 <h2>Sample Output</h2>
 <hr>
+
+
 Path found: ['A', 'F', 'G', 'I', 'J']
 
 
 <hr>
 <h2>Sample Graph II</h2>
+
 <hr>
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3)
 
 
 <hr>
+
 <h2>Sample Input</h2>
 <hr>
 6 6 <br>
+
+
 A B 2 <br>
 B C 1 <br>
 A E 3 <br>
@@ -117,9 +130,12 @@ G 0 <br>
 <hr>
 <h2>Sample Output</h2>
 <hr>
+
+
 Path found: ['A', 'E', 'D', 'G']
 
 <H2>PROGRAM:</H2>
+<hr>
 
 ```
 from collections import defaultdict
@@ -214,6 +230,9 @@ goal = input("Enter the goal node: ")
 # Run the A* algorithm
 aStarAlgo(start, goal)
 ```
+<hr>
+
+
 <H2>OUTPUT:</H2>
 
 ![image](https://github.com/user-attachments/assets/470c8558-e2d2-40b6-9dc7-322f38ec7515)
