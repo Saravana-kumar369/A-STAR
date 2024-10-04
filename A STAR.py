@@ -45,7 +45,7 @@ def aStarAlgo(start_node, stop_node):
                             closed_set.remove(m)
                             open_set.add(m)
         if n == None:
-            TYPE THE CODE HERE TO PRINT AS Path does not exist!
+            print("Path does not exist!")
             
             return None
         
@@ -70,6 +70,11 @@ def aStarAlgo(start_node, stop_node):
 #define fuction to return neighbor and its distance
 #from the passed node
 def get_neighbors(v):
+    # Function to return neighbors and their distances
+    if v in Graph_nodes:
+        return Graph_nodes[v]
+    else:
+        return []
        """
     Retrieves a value from the Graph_nodes dictionary based on the provided key.
 
