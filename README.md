@@ -10,8 +10,7 @@
 
 <H3>Algorithm:</H3>
 
-
-// A* Search Algorithm
+ A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
     put the starting node on the open 
@@ -232,7 +231,10 @@ aStarAlgo(start, goal)
 ```
 <hr>
 
-
 <H2>OUTPUT:</H2>
 
 ![image](https://github.com/user-attachments/assets/470c8558-e2d2-40b6-9dc7-322f38ec7515)
+
+<H2>RESULT:</H2>
+
+Thus,A * Search algorithm for a Graph using Python executed successfully.
